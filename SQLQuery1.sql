@@ -19,6 +19,20 @@ Sex tinyint check(Sex between 0 and 2),
 Salary int
 );
 
+create table Intern
+(
+SSN int identity (3000000,1) primary key Not NULL,
+Fname nvarchar(50),
+Minit varchar,
+Lname nvarchar(50),
+Bdate DATE,
+Address_ nvarchar(50),
+Sex tinyint check(Sex between 0 and 2),
+Salary int,
+Major nvarchar(50),
+PNO INT foreign key references Project(Pnumber),
+Super_SSN int foreign key references Employee(SSN)
+);
 
 
 create table Department
