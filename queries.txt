@@ -1,0 +1,13 @@
+1) From the following table, write a SQL query to rank the employees according to their annual salary in ascending order. Return employee ID, employee name, monthly salary, salary/30 as Daily_Salary, and 12*salary as Anual_Salary. 
+
+2) From the following table, write a SQL query to find those employees who are either 'CLERK' or 'ANALYST’. Sort the result set in descending order on job_name. Return complete information about the employees
+
+3) From the following table, write a SQL query to list the employees in the ascending order by job title and in descending order by employee ID. Return complete information about the employees.
+
+4) From the following table, write a SQL query to list the unique jobs of department 2001 and 3001 in descending order. Return job name.
+
+5) From the following table, write a SQL query to calculate the total annual salary distributed across each job in 1991. Return job name, total annual salary.
+
+6)  From the following table, write a SQL query to count the number of employees in each designation of each department. Return department id, job name and number of employees.
+
+7) 
